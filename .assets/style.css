@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    color: gold;
+}
+
+body {
+    background-color: darkblue;
+}
+
+.header { 
+    padding: 20px;
+    background-color: black; 
+    font-family: monospace;
+}
+
+.h1 {
+    background-color: black;
+    font-size: 500%;
+    display: inline-block;
+}
+
+.header nav {
+    background-color: black;
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.header nav ul {
+    background-color: black;
+    list-style-type: none;
+    
+}
+
+.header nav ul li { 
+    background-color: black;
+    display: inline-block;
+    margin-left: 20px;
+}
