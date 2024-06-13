@@ -14,7 +14,7 @@ My Url will be located in my GitHub account and leads to my repository. As well 
 
 ## Usage
 
-![Get-to-know-me](Screenshot_13-6-2024_164332_.jpeg)
+![Get-to-know-me](image.png)
 
 ## Credits
 
