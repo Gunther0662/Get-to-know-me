@@ -3,24 +3,43 @@
     color: gold;
 }
 
+:root {
+    background-color: ;
+}
+
 body {
-    background-color: darkblue;
+    background-color: navy;
+}
+
+p {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.avatar {
+    position: relative;
+    background-image: url("../images/penguin\ in\ tuxedo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    height: 500px;
+    width: 20%;
 }
 
 .header { 
     padding: 20px;
-    background-color: black; 
+    background-color: teal; 
     font-family: monospace;
 }
 
 .h1 {
-    background-color: black;
+    background-color: teal;
     font-size: 500%;
     display: inline-block;
 }
 
 .header nav {
-    background-color: black;
+    background-color: teal;
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,13 +48,65 @@ body {
 }
 
 .header nav ul {
-    background-color: black;
+    background-color: teal;
     list-style-type: none;
     
 }
 
 .header nav ul li { 
-    background-color: black;
+    background-color: teal;
     display: inline-block;
     margin-left: 20px;
+}
+
+nav section{
+    width:10px;
+    text-align: right;
+    justify-content:end;
+}
+
+h2 {
+font-size: 50px;
+font-family: monospace;
+}
+main {
+    background-color:teal;
+    text-align: end;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+aside section {
+    align-content: center
+    display: inline-block;
+    padding-bottom: 300px;
+    border-right: 5px solid teal;
+
+}
+
+.section1 {
+    flex-wrap: wrap;
+    float:right;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.section2 {
+    float:right;
+    width: 80%;
+    margin-top: 20px;
+}
+
+footer {
+clear: both;
+text-align: center;
+background-color: teal;
+flex-wrap: wrap;
 }
